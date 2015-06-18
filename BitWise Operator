@@ -1,0 +1,55 @@
+																	// Bit Wise Operator
+//Binary AND Operator													 
+class BitWiseOp1
+{
+		public static void main(String args[])
+	{
+		int a=60;
+		int b=13;
+		int c = a&b;
+	 		 System.out.println("a&b= "+c );
+
+	}
+}
+
+//Binary OR Operator
+class BitWiseOp2
+{
+		public static void main(String args[])
+	{
+		int a=60;
+		int b=13;
+		int c = a|b;
+	 		 System.out.println("a|b= "+c );
+
+	}
+}
+
+//Binary XOR Operator
+class BitWiseOp3
+{
+		public static void main(String args[])
+	{
+		int a=60;
+		int b =100;
+		int c = (~a);
+		int d =(~b);
+	 		 System.out.println("~a= "+c );
+			 System.out.println("~b= "+d );
+	}
+}
+
+//Binary Left Shift  Operator a<<2
+//Binary Right Shift  Operator b>>2
+class BitWiseOp4
+{
+		public static void main(String args[])
+	{
+		int a=60;//  0011 1100
+		int b =89;
+		int c = 50<<2; //0011 1100 00 
+		int d =b>>2; //  0011 11            
+		System.out.println("a<<2= "+c );
+			 System.out.println("b>>2= "+d );
+	}
+}
